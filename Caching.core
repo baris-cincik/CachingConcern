@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmi:id="_-1j14IEgEeusesQjvatQAA" name="Caching" models="_-1j14YEgEeusesQjvatQAA">
+  <featureModel xmi:id="_-1j14YEgEeusesQjvatQAA" coreConcern="_-1j14IEgEeusesQjvatQAA" root="_-1j14oEgEeusesQjvatQAA">
+    <features xmi:id="_-1j14oEgEeusesQjvatQAA" name="Caching" children="_DEXYoIEhEeusesQjvatQAA _KIhicIEiEeusesQjvatQAA _Qex54IEiEeusesQjvatQAA _NuVLgIEiEeusesQjvatQAA"/>
+    <features xmi:id="_DEXYoIEhEeusesQjvatQAA" name="Data Accessor" children="_wTbzwIEhEeusesQjvatQAA _yERfQIEhEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory"/>
+    <features xmi:id="_wTbzwIEhEeusesQjvatQAA" name="Oracle Data Accessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="OR"/>
+    <features xmi:id="_yERfQIEhEeusesQjvatQAA" name="Sybase Data Accessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="OR"/>
+    <features xmi:id="_KIhicIEiEeusesQjvatQAA" name="Cache Accessor" children="_Lv0QYIEiEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory"/>
+    <features xmi:id="_Lv0QYIEiEeusesQjvatQAA" name="Cache" parent="_KIhicIEiEeusesQjvatQAA" parentRelationship="Mandatory"/>
+    <features xmi:id="_NuVLgIEiEeusesQjvatQAA" name="Cache Statistics" children="_b5S1YIEiEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Optional"/>
+    <features xmi:id="_Qex54IEiEeusesQjvatQAA" name="Cache Collector" children="_XjersIEiEeusesQjvatQAA _Y3DMYIEiEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Optional"/>
+    <features xmi:id="_XjersIEiEeusesQjvatQAA" name="Fixed Expiration" parent="_Qex54IEiEeusesQjvatQAA" parentRelationship="OR"/>
+    <features xmi:id="_Y3DMYIEiEeusesQjvatQAA" name="Inactive Expiration" parent="_Qex54IEiEeusesQjvatQAA" parentRelationship="OR"/>
+    <features xmi:id="_b5S1YIEiEeusesQjvatQAA" name="hit/miss ratio" parent="_NuVLgIEiEeusesQjvatQAA" parentRelationship="Mandatory"/>
+  </featureModel>
+</core:COREConcern>
