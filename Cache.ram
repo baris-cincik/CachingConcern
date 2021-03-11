@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_XjReMIIQEeu5MfgbrPgVUg" name="Cache">
+  <realizes href="Caching.core#_Lv0QYIEiEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_XjReMYIQEeu5MfgbrPgVUg">
+    <classes xsi:type="ram:Class" xmi:id="_XjReMoIQEeu5MfgbrPgVUg" name="CacheData">
+      <associationEnds xmi:id="_xGEboIITEeu5MfgbrPgVUg" name="myCachePool" lowerBound="1" assoc="_xGEbooITEeu5MfgbrPgVUg"/>
+      <attributes xmi:id="_XjReM4IQEeu5MfgbrPgVUg" name="key" type="_XjReOoIQEeu5MfgbrPgVUg"/>
+      <attributes xmi:id="_XjReNIIQEeu5MfgbrPgVUg" name="value" type="_XjReOoIQEeu5MfgbrPgVUg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_u3V6QIITEeu5MfgbrPgVUg" name="CachePool">
+      <associationEnds xmi:id="_xGEboYITEeu5MfgbrPgVUg" name="cachedData" upperBound="-1" assoc="_xGEbooITEeu5MfgbrPgVUg"/>
+    </classes>
+    <associations xmi:id="_xGEbooITEeu5MfgbrPgVUg" name="CacheData_CacheTable" ends="_xGEboIITEeu5MfgbrPgVUg _xGEboYITEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RVoid" xmi:id="_XjReNYIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RAny" xmi:id="_XjReNoIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_XjReN4IQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RInt" xmi:id="_XjReOIIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RChar" xmi:id="_XjReOYIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RString" xmi:id="_XjReOoIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_XjReO4IQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_XjRePIIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RLong" xmi:id="_XjRePYIQEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RByte" xmi:id="_XjRePoIQEeu5MfgbrPgVUg"/>
+  </structuralView>
+  <layout xmi:id="_XjSsUIIQEeu5MfgbrPgVUg">
+    <containers xmi:id="_XjSsUYIQEeu5MfgbrPgVUg" key="_XjReMYIQEeu5MfgbrPgVUg">
+      <value xmi:id="_XjSsUoIQEeu5MfgbrPgVUg" key="_XjReMoIQEeu5MfgbrPgVUg">
+        <value xmi:id="_XjSsU4IQEeu5MfgbrPgVUg" x="483.9944" y="457.00024"/>
+      </value>
+      <value xmi:id="_u3YWgIITEeu5MfgbrPgVUg" key="_u3V6QIITEeu5MfgbrPgVUg">
+        <value xmi:id="_u3YWgYITEeu5MfgbrPgVUg" x="484.00024" y="118.00008"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
