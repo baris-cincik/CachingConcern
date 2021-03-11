@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_H387kIJiEeuBgplTSvBFkA" name="FailureRecovery">
+  <realizes href="Caching.core#_mYTU8IJhEeuBgplTSvBFkA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_H387kYJiEeuBgplTSvBFkA">
+    <classes xsi:type="ram:Class" xmi:id="_H387koJiEeuBgplTSvBFkA" name="RecoveryManager">
+      <associationEnds xmi:id="_H387k4JiEeuBgplTSvBFkA" name="stores" static="true" upperBound="-1" assoc="_H387mIJiEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_H387lIJiEeuBgplTSvBFkA" name="BackupData">
+      <associationEnds xmi:id="_H387lYJiEeuBgplTSvBFkA" name="recovers" lowerBound="1" assoc="_H387mIJiEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_H387loJiEeuBgplTSvBFkA" name="data" type="_H387noJiEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_H387l4JiEeuBgplTSvBFkA" name="backupDate" type="_H387noJiEeuBgplTSvBFkA"/>
+    </classes>
+    <associations xmi:id="_H387mIJiEeuBgplTSvBFkA" name="RecoveryManager_BackupData" ends="_H387k4JiEeuBgplTSvBFkA _H387lYJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RVoid" xmi:id="_H387mYJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RAny" xmi:id="_H387moJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_H387m4JiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RInt" xmi:id="_H387nIJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RChar" xmi:id="_H387nYJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RString" xmi:id="_H387noJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_H387n4JiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_H387oIJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RLong" xmi:id="_H387oYJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RByte" xmi:id="_H387ooJiEeuBgplTSvBFkA"/>
+  </structuralView>
+  <instantiations xmi:id="_H387o4JiEeuBgplTSvBFkA">
+    <source xsi:type="ram:Aspect" href="OracleDataAccessor.ram#_4BAWMIJPEeuBgplTSvBFkA"/>
+  </instantiations>
+  <layout xmi:id="_H387pIJiEeuBgplTSvBFkA">
+    <containers xmi:id="_H387pYJiEeuBgplTSvBFkA" key="_H387kYJiEeuBgplTSvBFkA">
+      <value xmi:id="_H387poJiEeuBgplTSvBFkA" key="_H387koJiEeuBgplTSvBFkA">
+        <value xmi:id="_H387p4JiEeuBgplTSvBFkA" x="6.618443" y="184.18051"/>
+      </value>
+      <value xmi:id="_H387qIJiEeuBgplTSvBFkA" key="_H387lIJiEeuBgplTSvBFkA">
+        <value xmi:id="_H387qYJiEeuBgplTSvBFkA" x="594.0" y="105.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
