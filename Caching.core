@@ -5,13 +5,23 @@
   <models xsi:type="ram:Aspect" href="CacheAccessor.ram#_9yWPEIIVEeu5MfgbrPgVUg"/>
   <models xsi:type="ram:Aspect" href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
   <models xsi:type="ram:Aspect" href="CacheStatistics.ram#_wrJR0IIhEeu5MfgbrPgVUg"/>
+  <models xsi:type="ram:Aspect" href="DataAccessor.ram#_a2eAkIJNEeuBgplTSvBFkA"/>
+  <models xsi:type="ram:Aspect" href="OracleDataAccessor.ram#_4BAWMIJPEeuBgplTSvBFkA"/>
+  <models xsi:type="ram:Aspect" href="SybaseDataAccessor.ram#_9vGuMIJfEeuBgplTSvBFkA"/>
+  <models xsi:type="ram:Aspect" href="FailureRecovery.ram#_H387kIJiEeuBgplTSvBFkA"/>
   <featureModel xmi:id="_-1j14YEgEeusesQjvatQAA" coreConcern="_-1j14IEgEeusesQjvatQAA" root="_-1j14oEgEeusesQjvatQAA">
     <features xmi:id="_-1j14oEgEeusesQjvatQAA" name="Caching" children="_DEXYoIEhEeusesQjvatQAA _KIhicIEiEeusesQjvatQAA _Qex54IEiEeusesQjvatQAA _NuVLgIEiEeusesQjvatQAA">
       <realizedBy xsi:type="ram:Aspect" href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
     </features>
-    <features xmi:id="_DEXYoIEhEeusesQjvatQAA" name="DataAccessor" children="_wTbzwIEhEeusesQjvatQAA _yERfQIEhEeusesQjvatQAA _sBeo8IIqEeuD86nuZqNBDw" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory"/>
-    <features xmi:id="_wTbzwIEhEeusesQjvatQAA" name="OracleDataAccessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="Optional"/>
-    <features xmi:id="_yERfQIEhEeusesQjvatQAA" name="SybaseDataAccessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="Optional"/>
+    <features xmi:id="_DEXYoIEhEeusesQjvatQAA" name="DataAccessor" children="_wTbzwIEhEeusesQjvatQAA _yERfQIEhEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory">
+      <realizedBy xsi:type="ram:Aspect" href="DataAccessor.ram#_a2eAkIJNEeuBgplTSvBFkA"/>
+    </features>
+    <features xmi:id="_wTbzwIEhEeusesQjvatQAA" name="OracleDataAccessor" children="_mYTU8IJhEeuBgplTSvBFkA" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="OracleDataAccessor.ram#_4BAWMIJPEeuBgplTSvBFkA"/>
+    </features>
+    <features xmi:id="_yERfQIEhEeusesQjvatQAA" name="SybaseDataAccessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="OR">
+      <realizedBy xsi:type="ram:Aspect" href="SybaseDataAccessor.ram#_9vGuMIJfEeuBgplTSvBFkA"/>
+    </features>
     <features xmi:id="_KIhicIEiEeusesQjvatQAA" name="CacheAccessor" children="_Lv0QYIEiEeusesQjvatQAA" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory">
       <realizedBy xsi:type="ram:Aspect" href="CacheAccessor.ram#_9yWPEIIVEeu5MfgbrPgVUg"/>
     </features>
@@ -25,6 +35,8 @@
     <features xmi:id="_XjersIEiEeusesQjvatQAA" name="FixedExpiration" parent="_Qex54IEiEeusesQjvatQAA" parentRelationship="OR"/>
     <features xmi:id="_Y3DMYIEiEeusesQjvatQAA" name="InactiveExpiration" parent="_Qex54IEiEeusesQjvatQAA" parentRelationship="OR"/>
     <features xmi:id="_b5S1YIEiEeusesQjvatQAA" name="HitRatio" parent="_NuVLgIEiEeusesQjvatQAA" parentRelationship="Mandatory"/>
-    <features xmi:id="_sBeo8IIqEeuD86nuZqNBDw" name="FunctionReturnResultAccessor" parent="_DEXYoIEhEeusesQjvatQAA" parentRelationship="Optional"/>
+    <features xmi:id="_mYTU8IJhEeuBgplTSvBFkA" name="FailureRecovery" parent="_wTbzwIEhEeusesQjvatQAA" parentRelationship="Optional">
+      <realizedBy xsi:type="ram:Aspect" href="FailureRecovery.ram#_H387kIJiEeuBgplTSvBFkA"/>
+    </features>
   </featureModel>
 </core:COREConcern>

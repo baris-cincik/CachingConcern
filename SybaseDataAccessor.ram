@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_9vGuMIJfEeuBgplTSvBFkA" name="SybaseDataAccessor">
+  <realizes href="Caching.core#_yERfQIEhEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_9vGuMYJfEeuBgplTSvBFkA">
+    <classes xsi:type="ram:Class" xmi:id="_9vGuMoJfEeuBgplTSvBFkA" name="DBMS">
+      <attributes xmi:id="_9vGuM4JfEeuBgplTSvBFkA" name="accessLang" type="_9vGuOoJfEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_9vGuNIJfEeuBgplTSvBFkA" name="company" type="_9vGuOoJfEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_B4VNYIJgEeuBgplTSvBFkA" name="SybaseDataManager" superTypes="_9vGuMoJfEeuBgplTSvBFkA">
+      <associationEnds xmi:id="_dUt_IIJiEeuBgplTSvBFkA" name="myDatabase" upperBound="-1" assoc="_dUumMYJiEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_EpwzMIJgEeuBgplTSvBFkA" name="log" type="_9vGuOoJfEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_kPbugIJiEeuBgplTSvBFkA" name="processingCap" type="_9vGuOIJfEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_UXY3wIJiEeuBgplTSvBFkA" name="Database">
+      <associationEnds xmi:id="_dUumMIJiEeuBgplTSvBFkA" name="manages" lowerBound="1" assoc="_dUumMYJiEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_ZxGucIJiEeuBgplTSvBFkA" name="capacity" type="_9vGuOIJfEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_bHQpEIJiEeuBgplTSvBFkA" name="isRelational" type="_9vGuN4JfEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_cBwicIJiEeuBgplTSvBFkA" name="id" type="_9vGuOIJfEeuBgplTSvBFkA"/>
+    </classes>
+    <associations xmi:id="_dUumMYJiEeuBgplTSvBFkA" name="SybaseDataManager_Database" ends="_dUt_IIJiEeuBgplTSvBFkA _dUumMIJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RVoid" xmi:id="_9vGuNYJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RAny" xmi:id="_9vGuNoJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_9vGuN4JfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RInt" xmi:id="_9vGuOIJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RChar" xmi:id="_9vGuOYJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RString" xmi:id="_9vGuOoJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_9vGuO4JfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_9vGuPIJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RLong" xmi:id="_9vGuPYJfEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RByte" xmi:id="_9vGuPoJfEeuBgplTSvBFkA"/>
+  </structuralView>
+  <instantiations xmi:id="_9vGuP4JfEeuBgplTSvBFkA">
+    <source xsi:type="ram:Aspect" href="DataAccessor.ram#_a2eAkIJNEeuBgplTSvBFkA"/>
+  </instantiations>
+  <layout xmi:id="_9vGuQIJfEeuBgplTSvBFkA">
+    <containers xmi:id="_9vGuQYJfEeuBgplTSvBFkA" key="_9vGuMYJfEeuBgplTSvBFkA">
+      <value xmi:id="_9vGuQoJfEeuBgplTSvBFkA" key="_9vGuMoJfEeuBgplTSvBFkA">
+        <value xmi:id="_9vGuQ4JfEeuBgplTSvBFkA" x="362.0" y="166.0"/>
+      </value>
+      <value xmi:id="_B4WbgIJgEeuBgplTSvBFkA" key="_B4VNYIJgEeuBgplTSvBFkA">
+        <value xmi:id="_B4WbgYJgEeuBgplTSvBFkA" x="334.0" y="422.90143"/>
+      </value>
+      <value xmi:id="_UXas8IJiEeuBgplTSvBFkA" key="_UXY3wIJiEeuBgplTSvBFkA">
+        <value xmi:id="_UXas8YJiEeuBgplTSvBFkA" x="355.0" y="830.7268"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
