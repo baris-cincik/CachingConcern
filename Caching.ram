@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_D4sQUIIYEeu5MfgbrPgVUg" name="Caching">
+  <realizes href="Caching.core#_-1j14oEgEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_D4sQUYIYEeu5MfgbrPgVUg">
+    <classes xsi:type="ram:Class" xmi:id="_D4sQUoIYEeu5MfgbrPgVUg" name="Client">
+      <associationEnds xmi:id="_D4sQU4IYEeu5MfgbrPgVUg" name="myCaching" assoc="_D4sQVoIYEeu5MfgbrPgVUg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_D4sQVIIYEeu5MfgbrPgVUg" name="CachingService">
+      <associationEnds xmi:id="_D4sQVYIYEeu5MfgbrPgVUg" name="myClient" lowerBound="1" assoc="_D4sQVoIYEeu5MfgbrPgVUg"/>
+    </classes>
+    <associations xmi:id="_D4sQVoIYEeu5MfgbrPgVUg" name="Client_CashingService" ends="_D4sQU4IYEeu5MfgbrPgVUg _D4sQVYIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RVoid" xmi:id="_D4sQV4IYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RAny" xmi:id="_D4sQWIIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_D4sQWYIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RInt" xmi:id="_D4sQWoIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RChar" xmi:id="_D4sQW4IYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RString" xmi:id="_D4sQXIIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_D4sQXYIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_D4sQXoIYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RLong" xmi:id="_D4sQX4IYEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RByte" xmi:id="_D4sQYIIYEeu5MfgbrPgVUg"/>
+  </structuralView>
+  <layout xmi:id="_D4sQYYIYEeu5MfgbrPgVUg">
+    <containers xmi:id="_D4sQYoIYEeu5MfgbrPgVUg" key="_D4sQUYIYEeu5MfgbrPgVUg">
+      <value xmi:id="_D4sQY4IYEeu5MfgbrPgVUg" key="_D4sQUoIYEeu5MfgbrPgVUg">
+        <value xmi:id="_D4sQZIIYEeu5MfgbrPgVUg" x="373.00003" y="176.00002"/>
+      </value>
+      <value xmi:id="_D4sQZYIYEeu5MfgbrPgVUg" key="_D4sQVIIYEeu5MfgbrPgVUg">
+        <value xmi:id="_D4sQZoIYEeu5MfgbrPgVUg" x="770.99976" y="269.95908"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
