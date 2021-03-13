@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_JnA4YIO1EeuJILKBgdnzgQ" name="LeastRecentlyUsedExpiration">
+  <realizes href="Caching.core#_Y3DMYIEiEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_JnA4YYO1EeuJILKBgdnzgQ">
+    <classes xsi:type="ram:Class" xmi:id="_JnA4YoO1EeuJILKBgdnzgQ" name="LeastRecentlyUsedExpiration">
+      <attributes xmi:id="_JnA4Y4O1EeuJILKBgdnzgQ" name="lastUsed" type="_JnA4ZIO1EeuJILKBgdnzgQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_JnA4ZIO1EeuJILKBgdnzgQ" name="DateTime" dataType="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_JnA4ZYO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_JnA4ZoO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_JnA4Z4O1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_JnA4aIO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_JnA4aYO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RString" xmi:id="_JnA4aoO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_JnA4a4O1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_JnA4bIO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_JnA4bYO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_JnA4boO1EeuJILKBgdnzgQ"/>
+  </structuralView>
+  <instantiations xmi:id="_JnA4b4O1EeuJILKBgdnzgQ">
+    <source xsi:type="ram:Aspect" href="CacheCollector.ram#_5jUAsIOzEeuJILKBgdnzgQ"/>
+  </instantiations>
+  <layout xmi:id="_JnA4cIO1EeuJILKBgdnzgQ">
+    <containers xmi:id="_JnA4cYO1EeuJILKBgdnzgQ" key="_JnA4YYO1EeuJILKBgdnzgQ">
+      <value xmi:id="_JnA4coO1EeuJILKBgdnzgQ" key="_JnA4YoO1EeuJILKBgdnzgQ">
+        <value xmi:id="_JnA4c4O1EeuJILKBgdnzgQ" x="459.0" y="124.99994"/>
+      </value>
+      <value xmi:id="_JnA4dIO1EeuJILKBgdnzgQ" key="_JnA4ZIO1EeuJILKBgdnzgQ">
+        <value xmi:id="_JnA4dYO1EeuJILKBgdnzgQ" x="72.0" y="165.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

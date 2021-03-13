@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_EPAR4IO1EeuJILKBgdnzgQ" name="FixedExpiration">
+  <realizes href="Caching.core#_XjersIEiEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_EPAR4YO1EeuJILKBgdnzgQ">
+    <classes xsi:type="ram:Class" xmi:id="_EPAR4oO1EeuJILKBgdnzgQ" name="FixedExpiration">
+      <attributes xmi:id="_EPAR44O1EeuJILKBgdnzgQ" name="timeAdded" type="_EPAR5IO1EeuJILKBgdnzgQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_EPAR5IO1EeuJILKBgdnzgQ" name="DateTime" dataType="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_EPA48IO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_EPA48YO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_EPA48oO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_EPA484O1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_EPA49IO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RString" xmi:id="_EPA49YO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_EPA49oO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_EPA494O1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_EPA4-IO1EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_EPA4-YO1EeuJILKBgdnzgQ"/>
+  </structuralView>
+  <instantiations xmi:id="_EPA4-oO1EeuJILKBgdnzgQ">
+    <source xsi:type="ram:Aspect" href="CacheCollector.ram#_5jUAsIOzEeuJILKBgdnzgQ"/>
+  </instantiations>
+  <layout xmi:id="_EPA4-4O1EeuJILKBgdnzgQ">
+    <containers xmi:id="_EPA4_IO1EeuJILKBgdnzgQ" key="_EPAR4YO1EeuJILKBgdnzgQ">
+      <value xmi:id="_EPA4_YO1EeuJILKBgdnzgQ" key="_EPAR4oO1EeuJILKBgdnzgQ">
+        <value xmi:id="_EPA4_oO1EeuJILKBgdnzgQ" x="588.99994" y="170.5"/>
+      </value>
+      <value xmi:id="_EPA4_4O1EeuJILKBgdnzgQ" key="_EPAR5IO1EeuJILKBgdnzgQ">
+        <value xmi:id="_EPA5AIO1EeuJILKBgdnzgQ" x="177.0" y="166.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
