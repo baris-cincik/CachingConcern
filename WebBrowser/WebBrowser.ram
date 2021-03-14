@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_MXi6sISDEeujyJ3JQ6wdQw" name="WebBrowser">
+  <modelReuses xmi:id="_MXi6sYSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi6soSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6s4SDEeujyJ3JQ6wdQw" to="_MXi7CISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6tISDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6tYSDEeujyJ3JQ6wdQw" to="_MXi7EISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6toSDEeujyJ3JQ6wdQw" to="_MXi7EYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6t4SDEeujyJ3JQ6wdQw" to="_MXi7E4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6uISDEeujyJ3JQ6wdQw" to="_MXi7FISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_N77Kz4SBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi6uYSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi6uoSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6u4SDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6vISDEeujyJ3JQ6wdQw" to="_MXi7CISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6vYSDEeujyJ3JQ6wdQw" to="_MXi7CYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6voSDEeujyJ3JQ6wdQw" to="_MXi7CoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6v4SDEeujyJ3JQ6wdQw" to="_MXi7DISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6wISDEeujyJ3JQ6wdQw" to="_MXi7DYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_N8E6cISBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi6wYSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi6woSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6w4SDEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6xISDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6xYSDEeujyJ3JQ6wdQw" to="_MXi7FYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6xoSDEeujyJ3JQ6wdQw" to="_MXi7FoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6x4SDEeujyJ3JQ6wdQw" to="_MXi7GISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6yISDEeujyJ3JQ6wdQw" to="_MXi7GYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_ZxC9UISBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi6yYSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi6yoSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6y4SDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6zISDEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6zYSDEeujyJ3JQ6wdQw" to="_MXi7K4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6zoSDEeujyJ3JQ6wdQw" to="_MXi7LISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6z4SDEeujyJ3JQ6wdQw" to="_MXi7LoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi60ISDEeujyJ3JQ6wdQw" to="_MXi7L4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_ZxC9UoSBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi60YSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi60oSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEgISBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi604SDEeujyJ3JQ6wdQw" to="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEiYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi61ISDEeujyJ3JQ6wdQw" to="_MXi7QoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEioSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi61YSDEeujyJ3JQ6wdQw" to="_MXi7RISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEjISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi61oSDEeujyJ3JQ6wdQw" to="_MXi7RYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEjYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi614SDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEgoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi62ISDEeujyJ3JQ6wdQw" to="_MXi7GoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEg4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi62YSDEeujyJ3JQ6wdQw" to="_MXi7HISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEhYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi62oSDEeujyJ3JQ6wdQw" to="_MXi7HoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEh4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_b-gTYISBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi624SDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi63ISDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEgISBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi63YSDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEiYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi63oSDEeujyJ3JQ6wdQw" to="_MXi7HISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEioSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi634SDEeujyJ3JQ6wdQw" to="_MXi7HoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEjISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi64ISDEeujyJ3JQ6wdQw" to="_MXi7GoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEjYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi64YSDEeujyJ3JQ6wdQw" to="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEgoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi64oSDEeujyJ3JQ6wdQw" to="_MXi7RYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEg4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi644SDEeujyJ3JQ6wdQw" to="_MXi7QoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEhYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi65ISDEeujyJ3JQ6wdQw" to="_MXi7RISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_OneToOne.ram#_GqPEh4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_b-qEYISBEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi65YSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi65oSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElQISBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi654SDEeujyJ3JQ6wdQw" to="_MXi7UYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElSYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi66ISDEeujyJ3JQ6wdQw" to="_MXi7UoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElSoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi66YSDEeujyJ3JQ6wdQw" to="_MXi7U4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElS4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi66oSDEeujyJ3JQ6wdQw" to="_MXi7VYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElTYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi664SDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElUYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi67ISDEeujyJ3JQ6wdQw" to="_MXi7H4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElUoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi67YSDEeujyJ3JQ6wdQw" to="_MXi7IISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElU4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi67oSDEeujyJ3JQ6wdQw" to="_MXi7IoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElVYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi674SDEeujyJ3JQ6wdQw" to="_MXi7I4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElVoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_A7C3oISCEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi68ISDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi68YSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWjYSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi68oSDEeujyJ3JQ6wdQw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWj4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi684SDEeujyJ3JQ6wdQw" to="_MXi7UYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi69ISDEeujyJ3JQ6wdQw" to="_MXi7UoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi69YSDEeujyJ3JQ6wdQw" to="_MXi7U4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWk4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_A7MooISCEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi69oSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi694SDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElQISBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6-ISDEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElSYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6-YSDEeujyJ3JQ6wdQw" to="_MXi7MISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElSoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6-oSDEeujyJ3JQ6wdQw" to="_MXi7MYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElS4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6-4SDEeujyJ3JQ6wdQw" to="_MXi7M4SDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElTYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi6_ISDEeujyJ3JQ6wdQw" to="_MXi7OISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElUYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi6_YSDEeujyJ3JQ6wdQw" to="_MXi7OYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElUoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6_oSDEeujyJ3JQ6wdQw" to="_MXi7OoSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElU4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi6_4SDEeujyJ3JQ6wdQw" to="_MXi7PISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElVYSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi7AISDEeujyJ3JQ6wdQw" to="_MXi7PYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElVoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_z2K2oISCEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_MXi7AYSDEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_MXi7AoSDEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWjYSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi7A4SDEeujyJ3JQ6wdQw" to="_MXi7OISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWj4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_MXi7BISDEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_MXi7BYSDEeujyJ3JQ6wdQw" to="_MXi7MISDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_MXi7BoSDEeujyJ3JQ6wdQw" to="_MXi7MYSDEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWk4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_z2K2ooSCEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_C8UPAISGEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_C8UPAYSGEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_C8UPAoSGEeujyJ3JQ6wdQw" to="_u784AISFEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_C8UPA4SGEeujyJ3JQ6wdQw" to="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_C8UPBISGEeujyJ3JQ6wdQw" to="_C8UPCoSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPBYSGEeujyJ3JQ6wdQw" to="_C8UPC4SGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPBoSGEeujyJ3JQ6wdQw" to="_C8UPDYSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPB4SGEeujyJ3JQ6wdQw" to="_C8UPDoSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_C8UPCISGEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_C8UPD4SGEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_C8UPEISGEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KWoSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_C8UPEYSGEeujyJ3JQ6wdQw" to="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KY4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_C8UPEoSGEeujyJ3JQ6wdQw" to="_u784AISFEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZoSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_C8UPE4SGEeujyJ3JQ6wdQw" to="_C8UPGYSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KZ4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPFISGEeujyJ3JQ6wdQw" to="_C8UPGoSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaISBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPFYSGEeujyJ3JQ6wdQw" to="_C8UPHISGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KaoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_C8UPFoSGEeujyJ3JQ6wdQw" to="_C8UPHYSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77Ka4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_C8UPF4SGEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_l-W2wISGEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_l-W2wYSGEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1cISGEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l-W2woSGEeujyJ3JQ6wdQw" to="_u784AISFEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1coSGEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_l-W2w4SGEeujyJ3JQ6wdQw" to="_l-W23oSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1c4SGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2xISGEeujyJ3JQ6wdQw" to="_l-gmcISGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1dYSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2xYSGEeujyJ3JQ6wdQw" to="_l-gmcYSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1doSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l-W2xoSGEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1eYSGEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_l-W2x4SGEeujyJ3JQ6wdQw" to="_l-W20YSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1eoSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2yISGEeujyJ3JQ6wdQw" to="_l-W204SGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1fISGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2yYSGEeujyJ3JQ6wdQw" to="_l-W21YSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1foSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2yoSGEeujyJ3JQ6wdQw" to="_l-W214SGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1gISGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2y4SGEeujyJ3JQ6wdQw" to="_l-W22YSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1goSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2zISGEeujyJ3JQ6wdQw" to="_l-W22oSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1g4SGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2zYSGEeujyJ3JQ6wdQw" to="_l-W23ISGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1hYSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-W2zoSGEeujyJ3JQ6wdQw" to="_l-W23YSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1hoSGEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_l-W2z4SGEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <modelReuses xmi:id="_l-gmc4SGEeujyJ3JQ6wdQw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_l-gmdISGEeujyJ3JQ6wdQw">
+      <source xsi:type="ram:Aspect" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWjYSBEeujyJ3JQ6wdQw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l-gmdYSGEeujyJ3JQ6wdQw" to="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWj4SBEeujyJ3JQ6wdQw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_l-gmdoSGEeujyJ3JQ6wdQw" to="_u784AISFEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkYSBEeujyJ3JQ6wdQw"/>
+        <operationMappings xmi:id="_l-gmd4SGEeujyJ3JQ6wdQw" to="_l-gmcISGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWkoSBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+        <operationMappings xmi:id="_l-gmeISGEeujyJ3JQ6wdQw" to="_l-gmcYSGEeujyJ3JQ6wdQw">
+          <from xsi:type="ram:Operation" href="Reused_Association/Woven_Association_Association_ManyOpposite_One.ram#_IEOWk4SBEeujyJ3JQ6wdQw"/>
+        </operationMappings>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_l-gmeYSGEeujyJ3JQ6wdQw"/>
+  </modelReuses>
+  <realizes href="WebBrowser.core#_EaMmcoR_EeujyJ3JQ6wdQw"/>
+  <coreConcern href="WebBrowser.core#_EaMmcIR_EeujyJ3JQ6wdQw"/>
+  <structuralView xmi:id="_MXi7B4SDEeujyJ3JQ6wdQw">
+    <classes xsi:type="ram:Class" xmi:id="_MXi7CISDEeujyJ3JQ6wdQw" name="User">
+      <operations xmi:id="_MXi7CYSDEeujyJ3JQ6wdQw" name="createBrowser" extendedVisibility="package" returnType="_MXi7CISDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7CoSDEeujyJ3JQ6wdQw" name="containsBrowser" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7C4SDEeujyJ3JQ6wdQw" name="a" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7DISDEeujyJ3JQ6wdQw" name="sizeOfBrowser" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7DYSDEeujyJ3JQ6wdQw" name="getBrowser" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7DoSDEeujyJ3JQ6wdQw" name="browser" upperBound="-1" assoc="_MXi7WISDEeujyJ3JQ6wdQw" featureSelection="_MXi6uYSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7D4SDEeujyJ3JQ6wdQw" name="WebBrowser">
+      <operations xmi:id="_MXi7EISDEeujyJ3JQ6wdQw" name="createClient" extendedVisibility="package" returnType="_MXi7D4SDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7EYSDEeujyJ3JQ6wdQw" name="containsClient" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7EoSDEeujyJ3JQ6wdQw" name="a" type="_MXi7CISDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7E4SDEeujyJ3JQ6wdQw" name="sizeOfClient" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7FISDEeujyJ3JQ6wdQw" name="getClient" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7FYSDEeujyJ3JQ6wdQw" name="createPresentedBy" extendedVisibility="package" returnType="_MXi7D4SDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7FoSDEeujyJ3JQ6wdQw" name="containsPresentedBy" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7F4SDEeujyJ3JQ6wdQw" name="a" type="_MXi7KoSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7GISDEeujyJ3JQ6wdQw" name="sizeOfPresentedBy" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7GYSDEeujyJ3JQ6wdQw" name="getPresentedBy" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7GoSDEeujyJ3JQ6wdQw" name="setPart" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7G4SDEeujyJ3JQ6wdQw" name="newObject" type="_MXi7QYSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7HISDEeujyJ3JQ6wdQw" name="setSimplePart" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7HYSDEeujyJ3JQ6wdQw" name="newObject" type="_MXi7QYSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7HoSDEeujyJ3JQ6wdQw" name="getPart" extendedVisibility="package" returnType="_MXi7QYSDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7H4SDEeujyJ3JQ6wdQw" name="createTool" extendedVisibility="package" returnType="_MXi7D4SDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7IISDEeujyJ3JQ6wdQw" name="containsTool" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7IYSDEeujyJ3JQ6wdQw" name="a" type="_MXi7UYSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7IoSDEeujyJ3JQ6wdQw" name="sizeOfTool" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7I4SDEeujyJ3JQ6wdQw" name="getTool" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElQoSBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7JISDEeujyJ3JQ6wdQw" name="client" upperBound="-1" assoc="_MXi7WISDEeujyJ3JQ6wdQw" featureSelection="_MXi6sYSDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_MXi7JYSDEeujyJ3JQ6wdQw" name="presentedBy" upperBound="-1" assoc="_MXi7WYSDEeujyJ3JQ6wdQw" featureSelection="_MXi6wYSDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_MXi7JoSDEeujyJ3JQ6wdQw" name="part" lowerBound="1" referenceType="Composition" assoc="_MXi7WoSDEeujyJ3JQ6wdQw" featureSelection="_MXi60YSDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_MXi7J4SDEeujyJ3JQ6wdQw" name="tool" upperBound="-1" referenceType="Composition" assoc="_MXi7W4SDEeujyJ3JQ6wdQw" featureSelection="_MXi65YSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7KISDEeujyJ3JQ6wdQw" name="name" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7KYSDEeujyJ3JQ6wdQw" name="version" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7KoSDEeujyJ3JQ6wdQw" name="Website">
+      <operations xmi:id="_MXi7K4SDEeujyJ3JQ6wdQw" name="createVisit" extendedVisibility="package" returnType="_MXi7KoSDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7LISDEeujyJ3JQ6wdQw" name="containsVisit" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7LYSDEeujyJ3JQ6wdQw" name="a" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7LoSDEeujyJ3JQ6wdQw" name="sizeOfVisit" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7L4SDEeujyJ3JQ6wdQw" name="getVisit" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7MISDEeujyJ3JQ6wdQw" name="getHost" extendedVisibility="package" returnType="_MXi7OISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7MYSDEeujyJ3JQ6wdQw" name="setHost" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7MoSDEeujyJ3JQ6wdQw" name="a" type="_MXi7OISDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7M4SDEeujyJ3JQ6wdQw" name="setSimpleHost" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7NISDEeujyJ3JQ6wdQw" name="newObject" type="_MXi7OISDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W20YSGEeujyJ3JQ6wdQw" name="addComposition" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W20oSGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W204SGEeujyJ3JQ6wdQw" name="removeComposition" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W21ISGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W21YSGEeujyJ3JQ6wdQw" name="addSimpleComposition" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W21oSGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W214SGEeujyJ3JQ6wdQw" name="removeSimpleComposition" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W22ISGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W22YSGEeujyJ3JQ6wdQw" name="createComposition" extendedVisibility="package" returnType="_MXi7KoSDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_l-W22oSGEeujyJ3JQ6wdQw" name="containsComposition" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W224SGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W23ISGEeujyJ3JQ6wdQw" name="sizeOfComposition" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_l-W23YSGEeujyJ3JQ6wdQw" name="getComposition" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_MinimumPlainBidirectional_MinimumPlainToOne.ram#_l-W1iISGEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7NYSDEeujyJ3JQ6wdQw" name="visit" upperBound="-1" assoc="_MXi7WYSDEeujyJ3JQ6wdQw" featureSelection="_MXi6yYSDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_MXi7NoSDEeujyJ3JQ6wdQw" name="host" lowerBound="1" assoc="_MXi7XISDEeujyJ3JQ6wdQw" featureSelection="_MXi7AYSDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_GfI1gISGEeujyJ3JQ6wdQw" name="composition" lowerBound="1" upperBound="-1" referenceType="Composition" assoc="_GfI1goSGEeujyJ3JQ6wdQw" featureSelection="_l-W2wISGEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7N4SDEeujyJ3JQ6wdQw" name="domainName" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7OISDEeujyJ3JQ6wdQw" name="Server">
+      <operations xmi:id="_MXi7OYSDEeujyJ3JQ6wdQw" name="createApplication" extendedVisibility="package" returnType="_MXi7OISDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_MXi7OoSDEeujyJ3JQ6wdQw" name="containsApplication" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7O4SDEeujyJ3JQ6wdQw" name="a" type="_MXi7KoSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7PISDEeujyJ3JQ6wdQw" name="sizeOfApplication" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7PYSDEeujyJ3JQ6wdQw" name="getApplication" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_OneOpposite.ram#_IEElQoSBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7PoSDEeujyJ3JQ6wdQw" name="application" upperBound="-1" assoc="_MXi7XISDEeujyJ3JQ6wdQw" featureSelection="_MXi69oSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7P4SDEeujyJ3JQ6wdQw" name="company" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7QISDEeujyJ3JQ6wdQw" name="service" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7QYSDEeujyJ3JQ6wdQw" name="BrowserCache">
+      <operations xmi:id="_MXi7QoSDEeujyJ3JQ6wdQw" name="setSimpleWhole" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7Q4SDEeujyJ3JQ6wdQw" name="newObject" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7RISDEeujyJ3JQ6wdQw" name="getWhole" extendedVisibility="package" returnType="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7RYSDEeujyJ3JQ6wdQw" name="setWhole" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7RoSDEeujyJ3JQ6wdQw" name="a" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_C8UPCoSGEeujyJ3JQ6wdQw" name="createSingleFile" extendedVisibility="package" returnType="_MXi7QYSDEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_C8UPC4SGEeujyJ3JQ6wdQw" name="containsSingleFile" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_C8UPDISGEeujyJ3JQ6wdQw" name="a" type="_u784AISFEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_C8UPDYSGEeujyJ3JQ6wdQw" name="sizeOfSingleFile" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_C8UPDoSGEeujyJ3JQ6wdQw" name="getSingleFile" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7R4SDEeujyJ3JQ6wdQw" name="whole" lowerBound="1" assoc="_MXi7WoSDEeujyJ3JQ6wdQw" featureSelection="_MXi624SDEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_2pcIIISFEeujyJ3JQ6wdQw" name="singleFile" upperBound="-1" assoc="_2pcIIoSFEeujyJ3JQ6wdQw" featureSelection="_C8UPAISGEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7SISDEeujyJ3JQ6wdQw" name="size" type="_MXi7ZoSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_MXi7SYSDEeujyJ3JQ6wdQw" name="map" type="_MXi7SoSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7SoSDEeujyJ3JQ6wdQw" name="Dict" dataType="true">
+      <attributes xmi:id="_BHR1cISFEeujyJ3JQ6wdQw" name="keys" type="_1KvK8ISEEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_LfWcgISFEeujyJ3JQ6wdQw" name="contents" type="_1KvK8ISEEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_MXi7UYSDEeujyJ3JQ6wdQw" name="BrowserExtension">
+      <operations xmi:id="_MXi7UoSDEeujyJ3JQ6wdQw" name="getPlatform" extendedVisibility="package" returnType="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_MXi7U4SDEeujyJ3JQ6wdQw" name="setPlatform" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7VISDEeujyJ3JQ6wdQw" name="a" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_MXi7VYSDEeujyJ3JQ6wdQw" name="setSimplePlatform" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_MXi7VoSDEeujyJ3JQ6wdQw" name="newObject" type="_MXi7D4SDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_MXi7V4SDEeujyJ3JQ6wdQw" name="platform" lowerBound="1" assoc="_MXi7W4SDEeujyJ3JQ6wdQw" featureSelection="_MXi68ISDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_1KvK8ISEEeujyJ3JQ6wdQw" name="ArrayList&lt;T>" dataType="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_u784AISFEeujyJ3JQ6wdQw" name="Content">
+      <operations xmi:id="_C8UPGYSGEeujyJ3JQ6wdQw" name="createPool" extendedVisibility="package" returnType="_u784AISFEeujyJ3JQ6wdQw" operationType="Constructor"/>
+      <operations xmi:id="_C8UPGoSGEeujyJ3JQ6wdQw" name="containsPool" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_C8UPG4SGEeujyJ3JQ6wdQw" name="a" type="_MXi7QYSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_C8UPHISGEeujyJ3JQ6wdQw" name="sizeOfPool" extendedVisibility="package" returnType="_MXi7YISDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_C8UPHYSGEeujyJ3JQ6wdQw" name="getPool" extendedVisibility="package">
+        <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_ManyOpposite.ram#_N77KXISBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-W23oSGEeujyJ3JQ6wdQw" name="setSimpleCollection" extendedVisibility="protected" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-W234SGEeujyJ3JQ6wdQw" name="a" type="_MXi7KoSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <operations xmi:id="_l-gmcISGEeujyJ3JQ6wdQw" name="getCollection" extendedVisibility="package" returnType="_MXi7KoSDEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_l-gmcYSGEeujyJ3JQ6wdQw" name="setCollection" extendedVisibility="package" returnType="_MXi7X4SDEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_l-gmcoSGEeujyJ3JQ6wdQw" name="a" type="_MXi7KoSDEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_2pcIIYSFEeujyJ3JQ6wdQw" name="pool" upperBound="-1" assoc="_2pcIIoSFEeujyJ3JQ6wdQw" featureSelection="_C8UPD4SGEeujyJ3JQ6wdQw"/>
+      <associationEnds xmi:id="_GfI1gYSGEeujyJ3JQ6wdQw" name="collection" lowerBound="1" assoc="_GfI1goSGEeujyJ3JQ6wdQw" featureSelection="_l-gmc4SGEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_w2q4QISFEeujyJ3JQ6wdQw" name="type" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_xrwGIISFEeujyJ3JQ6wdQw" name="text" type="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+      <attributes xmi:id="_yamJIISFEeujyJ3JQ6wdQw" name="image" type="_MXi7ZoSDEeujyJ3JQ6wdQw"/>
+    </classes>
+    <associations xmi:id="_MXi7WISDEeujyJ3JQ6wdQw" name="User_WebBrowser" ends="_MXi7DoSDEeujyJ3JQ6wdQw _MXi7JISDEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_MXi7WYSDEeujyJ3JQ6wdQw" name="WebBrowser_Website" ends="_MXi7JYSDEeujyJ3JQ6wdQw _MXi7NYSDEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_MXi7WoSDEeujyJ3JQ6wdQw" name="WebBrowser_Cache" ends="_MXi7JoSDEeujyJ3JQ6wdQw _MXi7R4SDEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_MXi7W4SDEeujyJ3JQ6wdQw" name="BrowserExtension_WebBrowser" ends="_MXi7V4SDEeujyJ3JQ6wdQw _MXi7J4SDEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_MXi7XISDEeujyJ3JQ6wdQw" name="WebServer_Website" ends="_MXi7PoSDEeujyJ3JQ6wdQw _MXi7NoSDEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_2pcIIoSFEeujyJ3JQ6wdQw" name="BrowserCache_Content" ends="_2pcIIISFEeujyJ3JQ6wdQw _2pcIIYSFEeujyJ3JQ6wdQw"/>
+    <associations xmi:id="_GfI1goSGEeujyJ3JQ6wdQw" name="Website_Content" ends="_GfI1gISGEeujyJ3JQ6wdQw _GfI1gYSGEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RVoid" xmi:id="_MXi7XYSDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RAny" xmi:id="_MXi7XoSDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_MXi7X4SDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RInt" xmi:id="_MXi7YISDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RChar" xmi:id="_MXi7YYSDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RString" xmi:id="_MXi7YoSDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_MXi7Y4SDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_MXi7ZISDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RLong" xmi:id="_MXi7ZYSDEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RByte" xmi:id="_MXi7ZoSDEeujyJ3JQ6wdQw"/>
+  </structuralView>
+  <layout xmi:id="_MXi7Z4SDEeujyJ3JQ6wdQw">
+    <containers xmi:id="_MXi7aISDEeujyJ3JQ6wdQw" key="_MXi7B4SDEeujyJ3JQ6wdQw">
+      <value xmi:id="_MXi7aYSDEeujyJ3JQ6wdQw" key="_MXi7CISDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7aoSDEeujyJ3JQ6wdQw" x="142.00024" y="273.94724"/>
+      </value>
+      <value xmi:id="_MXi7a4SDEeujyJ3JQ6wdQw" key="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7bISDEeujyJ3JQ6wdQw" x="504.99976" y="246.99008"/>
+      </value>
+      <value xmi:id="_MXi7bYSDEeujyJ3JQ6wdQw" key="_MXi7KoSDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7boSDEeujyJ3JQ6wdQw" x="921.0051" y="266.94724"/>
+      </value>
+      <value xmi:id="_MXi7b4SDEeujyJ3JQ6wdQw" key="_MXi7OISDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7cISDEeujyJ3JQ6wdQw" x="937.9404" y="-60.424156"/>
+      </value>
+      <value xmi:id="_MXi7cYSDEeujyJ3JQ6wdQw" key="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7coSDEeujyJ3JQ6wdQw" x="496.99976" y="534.98865"/>
+      </value>
+      <value xmi:id="_MXi7c4SDEeujyJ3JQ6wdQw" key="_MXi7SoSDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7dISDEeujyJ3JQ6wdQw" x="497.49976" y="728.16815"/>
+      </value>
+      <value xmi:id="_MXi7d4SDEeujyJ3JQ6wdQw" key="_MXi7UYSDEeujyJ3JQ6wdQw">
+        <value xmi:id="_MXi7eISDEeujyJ3JQ6wdQw" x="481.99976" y="-40.424156"/>
+      </value>
+      <value xmi:id="_1KvK8YSEEeujyJ3JQ6wdQw" key="_1KvK8ISEEeujyJ3JQ6wdQw">
+        <value xmi:id="_1KvK8oSEEeujyJ3JQ6wdQw" x="789.5614" y="748.16815"/>
+      </value>
+      <value xmi:id="_u784AYSFEeujyJ3JQ6wdQw" key="_u784AISFEeujyJ3JQ6wdQw">
+        <value xmi:id="_u784AoSFEeujyJ3JQ6wdQw" x="938.0191" y="522.0306"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

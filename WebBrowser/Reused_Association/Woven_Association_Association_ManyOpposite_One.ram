@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_IEOWjYSBEeujyJ3JQ6wdQw" name="Association&lt;Association,One,ManyOpposite>">
+  <structuralView xmi:id="_IEOWjoSBEeujyJ3JQ6wdQw">
+    <classes xsi:type="ram:Class" xmi:id="_IEOWj4SBEeujyJ3JQ6wdQw" name="Associated" partiality="public">
+      <associationEnds xmi:id="_IEOWkISBEeujyJ3JQ6wdQw" name="myData" lowerBound="1" navigable="false" assoc="_IEOWloSBEeujyJ3JQ6wdQw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_IEOWkYSBEeujyJ3JQ6wdQw" name="Data" partiality="public">
+      <operations xmi:id="_IEOWkoSBEeujyJ3JQ6wdQw" name="get" visibility="public" returnType="_IEOWj4SBEeujyJ3JQ6wdQw"/>
+      <operations xmi:id="_IEOWk4SBEeujyJ3JQ6wdQw" name="set" visibility="public" returnType="_IEOWmYSBEeujyJ3JQ6wdQw">
+        <parameters xmi:id="_IEOWlISBEeujyJ3JQ6wdQw" name="newObject" type="_IEOWj4SBEeujyJ3JQ6wdQw"/>
+      </operations>
+      <associationEnds xmi:id="_IEOWlYSBEeujyJ3JQ6wdQw" name="myAssociated" lowerBound="1" assoc="_IEOWloSBEeujyJ3JQ6wdQw"/>
+    </classes>
+    <associations xmi:id="_IEOWloSBEeujyJ3JQ6wdQw" name="Data_Associated" ends="_IEOWlYSBEeujyJ3JQ6wdQw _IEOWkISBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RVoid" xmi:id="_IEOWl4SBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RAny" xmi:id="_IEOWmISBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_IEOWmYSBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RInt" xmi:id="_IEOWmoSBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RChar" xmi:id="_IEOWm4SBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RString" xmi:id="_IEOWnISBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_IEOWnYSBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_IEOWnoSBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RLong" xmi:id="_IEOWn4SBEeujyJ3JQ6wdQw"/>
+    <types xsi:type="ram:RByte" xmi:id="_IEOWoISBEeujyJ3JQ6wdQw"/>
+  </structuralView>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_IEOWoYSBEeujyJ3JQ6wdQw" specifies="_IEOWkoSBEeujyJ3JQ6wdQw">
+    <specification xmi:id="_IEOWooSBEeujyJ3JQ6wdQw">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_IEOWo4SBEeujyJ3JQ6wdQw" covered="_IEOWpYSBEeujyJ3JQ6wdQw" message="_IEOWpoSBEeujyJ3JQ6wdQw"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_IEOWpISBEeujyJ3JQ6wdQw" covered="_IEOWpYSBEeujyJ3JQ6wdQw" message="_IEOWp4SBEeujyJ3JQ6wdQw"/>
+      <lifelines xmi:id="_IEOWpYSBEeujyJ3JQ6wdQw" represents="_IEOWqYSBEeujyJ3JQ6wdQw" coveredBy="_IEOWo4SBEeujyJ3JQ6wdQw _IEOWpISBEeujyJ3JQ6wdQw"/>
+      <messages xmi:id="_IEOWpoSBEeujyJ3JQ6wdQw" sendEvent="_IEOWqoSBEeujyJ3JQ6wdQw" receiveEvent="_IEOWo4SBEeujyJ3JQ6wdQw" signature="_IEOWkoSBEeujyJ3JQ6wdQw"/>
+      <messages xmi:id="_IEOWp4SBEeujyJ3JQ6wdQw" sendEvent="_IEOWpISBEeujyJ3JQ6wdQw" receiveEvent="_IEOWq4SBEeujyJ3JQ6wdQw" signature="_IEOWkoSBEeujyJ3JQ6wdQw" messageSort="reply">
+        <returns xsi:type="ram:StructuralFeatureValue" xmi:id="_IEOWqISBEeujyJ3JQ6wdQw" value="_IEOWlYSBEeujyJ3JQ6wdQw"/>
+      </messages>
+      <properties xmi:id="_IEOWqYSBEeujyJ3JQ6wdQw" name="target" lowerBound="1" type="_IEOWkYSBEeujyJ3JQ6wdQw"/>
+      <formalGates xmi:id="_IEOWqoSBEeujyJ3JQ6wdQw" message="_IEOWpoSBEeujyJ3JQ6wdQw" name="in_get"/>
+      <formalGates xmi:id="_IEOWq4SBEeujyJ3JQ6wdQw" message="_IEOWp4SBEeujyJ3JQ6wdQw" name="out_get"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_IEOWrISBEeujyJ3JQ6wdQw" specifies="_IEOWk4SBEeujyJ3JQ6wdQw">
+    <specification xmi:id="_IEOWrYSBEeujyJ3JQ6wdQw">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_IEOWroSBEeujyJ3JQ6wdQw" covered="_IEOWsoSBEeujyJ3JQ6wdQw" message="_IEOWs4SBEeujyJ3JQ6wdQw"/>
+      <fragments xsi:type="ram:AssignmentStatement" xmi:id="_IEOWr4SBEeujyJ3JQ6wdQw" covered="_IEOWsoSBEeujyJ3JQ6wdQw" assignTo="_IEOWlYSBEeujyJ3JQ6wdQw">
+        <value xsi:type="ram:OpaqueExpression" xmi:id="_IEOWsISBEeujyJ3JQ6wdQw" body="newObject" language="java"/>
+      </fragments>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_IEOWsYSBEeujyJ3JQ6wdQw" covered="_IEOWsoSBEeujyJ3JQ6wdQw" message="_IEOWtISBEeujyJ3JQ6wdQw"/>
+      <lifelines xmi:id="_IEOWsoSBEeujyJ3JQ6wdQw" represents="_IEOWtoSBEeujyJ3JQ6wdQw" coveredBy="_IEOWroSBEeujyJ3JQ6wdQw _IEOWsYSBEeujyJ3JQ6wdQw _IEOWr4SBEeujyJ3JQ6wdQw"/>
+      <messages xmi:id="_IEOWs4SBEeujyJ3JQ6wdQw" sendEvent="_IEOWt4SBEeujyJ3JQ6wdQw" receiveEvent="_IEOWroSBEeujyJ3JQ6wdQw" signature="_IEOWk4SBEeujyJ3JQ6wdQw"/>
+      <messages xmi:id="_IEOWtISBEeujyJ3JQ6wdQw" sendEvent="_IEOWsYSBEeujyJ3JQ6wdQw" receiveEvent="_IEOWuISBEeujyJ3JQ6wdQw" signature="_IEOWk4SBEeujyJ3JQ6wdQw" messageSort="reply">
+        <returns xsi:type="ram:LiteralBoolean" xmi:id="_IEOWtYSBEeujyJ3JQ6wdQw" value="true"/>
+      </messages>
+      <properties xmi:id="_IEOWtoSBEeujyJ3JQ6wdQw" name="target" lowerBound="1" type="_IEOWkYSBEeujyJ3JQ6wdQw"/>
+      <formalGates xmi:id="_IEOWt4SBEeujyJ3JQ6wdQw" message="_IEOWs4SBEeujyJ3JQ6wdQw" name="in_set"/>
+      <formalGates xmi:id="_IEOWuISBEeujyJ3JQ6wdQw" message="_IEOWtISBEeujyJ3JQ6wdQw" name="out_set"/>
+    </specification>
+  </messageViews>
+  <layout xmi:id="_IEOWuYSBEeujyJ3JQ6wdQw">
+    <containers xmi:id="_IEOWuoSBEeujyJ3JQ6wdQw" key="_IEOWjoSBEeujyJ3JQ6wdQw"/>
+  </layout>
+  <wovenAspects xmi:id="_IEOWu4SBEeujyJ3JQ6wdQw" name="Association">
+    <comesFrom href="Association.ram#_mDv4YEQ1EeSSfO86-u_zzA"/>
+    <wovenElements xmi:id="_IEOWvISBEeujyJ3JQ6wdQw" key="_IEOWkYSBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="Association.ram#_stleMHdvEeGm3uH8rYfPgw"/>
+    </wovenElements>
+    <wovenElements xmi:id="_IEOWvYSBEeujyJ3JQ6wdQw" key="_IEOWj4SBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="Association.ram#_R4j4oIdeEeG0oPAT5BSQFQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_IEOWvoSBEeujyJ3JQ6wdQw" name="One">
+    <comesFrom href="One.ram#_b8ZakH2JEeW19p3ERnXRPg"/>
+    <wovenElements xmi:id="_IEOWv4SBEeujyJ3JQ6wdQw" key="_IEOWk4SBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Operation" href="One.ram#_e8H7EH2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_IEOWwISBEeujyJ3JQ6wdQw" key="_IEOWj4SBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="One.ram#_KR2VYJLHEeWo8rM6O0KmRQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_IEOWwYSBEeujyJ3JQ6wdQw" key="_IEOWkoSBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Operation" href="One.ram#_b8Zak32JEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_IEOWwoSBEeujyJ3JQ6wdQw" key="_IEOWkYSBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="One.ram#_b8Zakn2JEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_IEOWw4SBEeujyJ3JQ6wdQw" name="ManyOpposite">
+    <comesFrom href="ManyOpposite.ram#_jG4CQH2fEeW19p3ERnXRPg"/>
+    <wovenElements xmi:id="_IEOWxISBEeujyJ3JQ6wdQw" key="_IEOWj4SBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="ManyOpposite.ram#_jG4CRH2fEeW19p3ERnXRPg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_IEOWxYSBEeujyJ3JQ6wdQw" key="_IEOWkYSBEeujyJ3JQ6wdQw">
+      <value xsi:type="ram:Class" href="ManyOpposite.ram#_jG4CQn2fEeW19p3ERnXRPg"/>
+    </wovenElements>
+  </wovenAspects>
+</ram:Aspect>

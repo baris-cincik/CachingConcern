@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_wrJR0IIhEeu5MfgbrPgVUg" name="CacheStatistics">
+  <realizes href="Caching.core#_NuVLgIEiEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_wrJR0YIhEeu5MfgbrPgVUg">
+    <classes xsi:type="ram:Class" xmi:id="_wrJR0oIhEeu5MfgbrPgVUg" name="CacheStatistics">
+      <attributes xmi:id="_wrJR04IhEeu5MfgbrPgVUg" name="hitRatio" type="_wrJR2oIhEeu5MfgbrPgVUg"/>
+      <attributes xmi:id="_d6HmUIIiEeu5MfgbrPgVUg" name="lastUpdated" type="_bgTPQIIiEeu5MfgbrPgVUg"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_bgTPQIIiEeu5MfgbrPgVUg" name="DateTime" dataType="true"/>
+    <types xsi:type="ram:RVoid" xmi:id="_wrJR1IIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RAny" xmi:id="_wrJR1YIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_wrJR1oIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RInt" xmi:id="_wrJR14IhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RChar" xmi:id="_wrJR2IIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RString" xmi:id="_wrJR2YIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RDouble" xmi:id="_wrJR2oIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RFloat" xmi:id="_wrJR24IhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RLong" xmi:id="_wrJR3IIhEeu5MfgbrPgVUg"/>
+    <types xsi:type="ram:RByte" xmi:id="_wrJR3YIhEeu5MfgbrPgVUg"/>
+  </structuralView>
+  <instantiations xmi:id="_wrJR3oIhEeu5MfgbrPgVUg">
+    <source xsi:type="ram:Aspect" href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
+  </instantiations>
+  <layout xmi:id="_wrJR34IhEeu5MfgbrPgVUg">
+    <containers xmi:id="_wrJR4IIhEeu5MfgbrPgVUg" key="_wrJR0YIhEeu5MfgbrPgVUg">
+      <value xmi:id="_wrJR4YIhEeu5MfgbrPgVUg" key="_wrJR0oIhEeu5MfgbrPgVUg">
+        <value xmi:id="_wrJR4oIhEeu5MfgbrPgVUg" x="607.0" y="210.00027"/>
+      </value>
+      <value xmi:id="_bgUdYIIiEeu5MfgbrPgVUg" key="_bgTPQIIiEeu5MfgbrPgVUg">
+        <value xmi:id="_bgUdYYIiEeu5MfgbrPgVUg" x="282.99988" y="319.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
