@@ -369,6 +369,27 @@
     </compositions>
     <reuse href="WebBrowser.core#_l-gmeYSGEeujyJ3JQ6wdQw"/>
   </modelReuses>
+  <modelReuses xmi:id="_L0WnoIU_EeuICsg8M7EIxw">
+    <compositions xsi:type="ram:Instantiation" xmi:id="_L0WnoYU_EeuICsg8M7EIxw">
+      <source xsi:type="ram:Aspect" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0BQcIU_EeuICsg8M7EIxw"/>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_M1CokIU_EeuICsg8M7EIxw" to="_MXi7CISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0B3kIU_EeuICsg8M7EIxw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_PzWMwIU_EeuICsg8M7EIxw" to="_MXi7QYSDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0B3iYU_EeuICsg8M7EIxw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_YClfEIU_EeuICsg8M7EIxw" to="_u784AISFEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0B3koU_EeuICsg8M7EIxw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_bsGjcIU_EeuICsg8M7EIxw" to="_MXi7D4SDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0B3jYU_EeuICsg8M7EIxw"/>
+      </mappings>
+      <mappings xsi:type="ram:ClassifierMapping" xmi:id="_kkzCcIU_EeuICsg8M7EIxw" to="_MXi7OISDEeujyJ3JQ6wdQw">
+        <from xsi:type="ram:Class" href="Reused_CachingConcern-master/Woven_Caching_Cache_CacheAccessor_CacheCollector_Caching_DataAccessor_FixedExpiration_OracleDataAccessor.ram#_L0BQcoU_EeuICsg8M7EIxw"/>
+      </mappings>
+    </compositions>
+    <reuse href="WebBrowser.core#_L0Zq8IU_EeuICsg8M7EIxw"/>
+  </modelReuses>
   <realizes href="WebBrowser.core#_EaMmcoR_EeujyJ3JQ6wdQw"/>
   <coreConcern href="WebBrowser.core#_EaMmcIR_EeujyJ3JQ6wdQw"/>
   <structuralView xmi:id="_MXi7B4SDEeujyJ3JQ6wdQw">

@@ -162,6 +162,19 @@
           <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
         </configurations>
       </reuses>
+      <reuses xmi:id="_L0Zq8IU_EeuICsg8M7EIxw" name="Caching" selectedConfiguration="_L0Zq8YU_EeuICsg8M7EIxw">
+        <reusedConcern href="Reused_CachingConcern-master/Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+        <configurations xmi:id="_L0Zq8YU_EeuICsg8M7EIxw" name="Caching_CacheAccessorFixedExpirationDataAccessorCacheCollectorOracleDataAccessorCacheCaching" reuse="_L0Zq8IU_EeuICsg8M7EIxw">
+          <source xsi:type="core:COREFeatureModel" href="Reused_CachingConcern-master/Caching.core#_-1j14YEgEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_KIhicIEiEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_XjersIEiEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_DEXYoIEhEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_Qex54IEiEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_wTbzwIEhEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_Lv0QYIEiEeusesQjvatQAA"/>
+          <selected href="Reused_CachingConcern-master/Caching.core#_-1j14oEgEeusesQjvatQAA"/>
+        </configurations>
+      </reuses>
     </features>
   </featureModel>
 </core:COREConcern>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_L0BQcIU_EeuICsg8M7EIxw" name="Caching&lt;DataAccessor,Cache Accessor,FixedExpiration,Caching,CacheCollector,Cache,OracleDataAccessor>">
+  <structuralView xmi:id="_L0BQcYU_EeuICsg8M7EIxw">
+    <classes xsi:type="ram:Class" xmi:id="_L0BQcoU_EeuICsg8M7EIxw" name="Database">
+      <associationEnds xmi:id="_L0BQc4U_EeuICsg8M7EIxw" name="manages" lowerBound="1" assoc="_L0B3l4U_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQdIU_EeuICsg8M7EIxw" name="capacity" type="_L0B3o4U_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQdYU_EeuICsg8M7EIxw" name="isRelational" type="_L0B3ooU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQdoU_EeuICsg8M7EIxw" name="id" type="_L0B3o4U_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQd4U_EeuICsg8M7EIxw" name="OracleDataManager" superTypes="_L0BQfoU_EeuICsg8M7EIxw">
+      <associationEnds xmi:id="_L0BQeIU_EeuICsg8M7EIxw" name="stores" upperBound="-1" assoc="_L0B3l4U_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0BQeYU_EeuICsg8M7EIxw" name="myRecoveryManager" lowerBound="1" assoc="_L0B3mIU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQeoU_EeuICsg8M7EIxw" name="log" type="_L0B3pYU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQe4U_EeuICsg8M7EIxw" name="processingCapacity" type="_L0B3o4U_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQfIU_EeuICsg8M7EIxw" name="RecoveryManager">
+      <associationEnds xmi:id="_L0BQfYU_EeuICsg8M7EIxw" name="myOracleDataManager" lowerBound="1" assoc="_L0B3mIU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQfoU_EeuICsg8M7EIxw" name="DBMS">
+      <associationEnds xmi:id="_L0BQf4U_EeuICsg8M7EIxw" name="myDataReader" upperBound="-1" assoc="_L0B3moU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQgIU_EeuICsg8M7EIxw" name="accessLang" type="_L0B3pYU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0BQgYU_EeuICsg8M7EIxw" name="company" type="_L0B3pYU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQgoU_EeuICsg8M7EIxw" name="DateTime" dataType="true"/>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQg4U_EeuICsg8M7EIxw" name="FixedExpiration" superTypes="_L0B3hoU_EeuICsg8M7EIxw">
+      <attributes xmi:id="_L0BQhIU_EeuICsg8M7EIxw" name="timeAdded" type="_L0BQgoU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQhYU_EeuICsg8M7EIxw" name="DataReader">
+      <associationEnds xmi:id="_L0BQhoU_EeuICsg8M7EIxw" name="myBuffer" lowerBound="1" assoc="_L0B3mYU_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0BQh4U_EeuICsg8M7EIxw" name="myDBMS" lowerBound="1" assoc="_L0B3moU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0BQiIU_EeuICsg8M7EIxw" name="Buffer" visibility="public">
+      <associationEnds xmi:id="_L0B3gIU_EeuICsg8M7EIxw" name="myDataReader" lowerBound="1" assoc="_L0B3mYU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0B3gYU_EeuICsg8M7EIxw" name="size" type="_L0B3p4U_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3goU_EeuICsg8M7EIxw" name="CacheAccessor">
+      <associationEnds xmi:id="_L0B3g4U_EeuICsg8M7EIxw" name="myCacheCollector" lowerBound="1" assoc="_L0B3m4U_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0B3hIU_EeuICsg8M7EIxw" name="myCachingService" lowerBound="1" assoc="_L0B3nIU_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0B3hYU_EeuICsg8M7EIxw" name="myCachePool" lowerBound="1" assoc="_L0B3nYU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3hoU_EeuICsg8M7EIxw" name="CacheCollector">
+      <associationEnds xmi:id="_L0B3h4U_EeuICsg8M7EIxw" name="myCacheAccessor" lowerBound="1" assoc="_L0B3m4U_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3iIU_EeuICsg8M7EIxw" name="LeastRecentlyUsedExpiration" superTypes="_L0B3hoU_EeuICsg8M7EIxw"/>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3iYU_EeuICsg8M7EIxw" name="CachePool">
+      <associationEnds xmi:id="_L0B3ioU_EeuICsg8M7EIxw" name="myCacheAccessor" lowerBound="1" assoc="_L0B3nYU_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0B3i4U_EeuICsg8M7EIxw" name="cachedData" upperBound="-1" assoc="_L0B3n4U_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0B3jIU_EeuICsg8M7EIxw" name="poolSize" type="_L0B3qYU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3jYU_EeuICsg8M7EIxw" name="CachingService">
+      <associationEnds xmi:id="_L0B3joU_EeuICsg8M7EIxw" name="myCacheAccessor" lowerBound="1" assoc="_L0B3nIU_EeuICsg8M7EIxw"/>
+      <associationEnds xmi:id="_L0B3j4U_EeuICsg8M7EIxw" name="myClient" lowerBound="1" assoc="_L0B3noU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3kIU_EeuICsg8M7EIxw" name="Client">
+      <associationEnds xmi:id="_L0B3kYU_EeuICsg8M7EIxw" name="myCaching" assoc="_L0B3noU_EeuICsg8M7EIxw"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_L0B3koU_EeuICsg8M7EIxw" name="CacheData">
+      <associationEnds xmi:id="_L0B3k4U_EeuICsg8M7EIxw" name="myCachePool" lowerBound="1" assoc="_L0B3n4U_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0B3lIU_EeuICsg8M7EIxw" name="key" type="_L0B3pYU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0B3lYU_EeuICsg8M7EIxw" name="value" type="_L0B3pYU_EeuICsg8M7EIxw"/>
+      <attributes xmi:id="_L0B3loU_EeuICsg8M7EIxw" name="size" type="_L0B3qYU_EeuICsg8M7EIxw"/>
+    </classes>
+    <associations xmi:id="_L0B3l4U_EeuICsg8M7EIxw" name="Database_OracleDataManager" ends="_L0BQc4U_EeuICsg8M7EIxw _L0BQeIU_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3mIU_EeuICsg8M7EIxw" name="OracleDataManager_RecoveryManager" ends="_L0BQeYU_EeuICsg8M7EIxw _L0BQfYU_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3mYU_EeuICsg8M7EIxw" name="Buffer_DataReader" ends="_L0B3gIU_EeuICsg8M7EIxw _L0BQhoU_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3moU_EeuICsg8M7EIxw" name="DataReader_DBMS" ends="_L0BQh4U_EeuICsg8M7EIxw _L0BQf4U_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3m4U_EeuICsg8M7EIxw" name="CacheCollector_CacheAccessor" ends="_L0B3h4U_EeuICsg8M7EIxw _L0B3g4U_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3nIU_EeuICsg8M7EIxw" name="CacheAccessor_Client" ends="_L0B3hIU_EeuICsg8M7EIxw _L0B3joU_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3nYU_EeuICsg8M7EIxw" name="CacheAccessor_CacheTable" ends="_L0B3hYU_EeuICsg8M7EIxw _L0B3ioU_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3noU_EeuICsg8M7EIxw" name="Client_CashingService" ends="_L0B3kYU_EeuICsg8M7EIxw _L0B3j4U_EeuICsg8M7EIxw"/>
+    <associations xmi:id="_L0B3n4U_EeuICsg8M7EIxw" name="CacheData_CacheTable" ends="_L0B3k4U_EeuICsg8M7EIxw _L0B3i4U_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RVoid" xmi:id="_L0B3oIU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RAny" xmi:id="_L0B3oYU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_L0B3ooU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RInt" xmi:id="_L0B3o4U_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RChar" xmi:id="_L0B3pIU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RString" xmi:id="_L0B3pYU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RDouble" xmi:id="_L0B3poU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RFloat" xmi:id="_L0B3p4U_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RLong" xmi:id="_L0B3qIU_EeuICsg8M7EIxw"/>
+    <types xsi:type="ram:RByte" xmi:id="_L0B3qYU_EeuICsg8M7EIxw"/>
+  </structuralView>
+  <layout xmi:id="_L0B3qoU_EeuICsg8M7EIxw">
+    <containers xmi:id="_L0B3q4U_EeuICsg8M7EIxw" key="_L0BQcYU_EeuICsg8M7EIxw"/>
+  </layout>
+  <wovenAspects xmi:id="_L0B3rIU_EeuICsg8M7EIxw" name="Cache">
+    <comesFrom href="Cache.ram#_XjReMIIQEeu5MfgbrPgVUg"/>
+    <wovenElements xmi:id="_L0B3rYU_EeuICsg8M7EIxw" key="_L0B3koU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="Cache.ram#_XjReMoIQEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3roU_EeuICsg8M7EIxw" key="_L0B3loU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="Cache.ram#_sFdfAIO0EeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3r4U_EeuICsg8M7EIxw" key="_L0B3lYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="Cache.ram#_XjReNIIQEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3sIU_EeuICsg8M7EIxw" key="_L0B3lIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="Cache.ram#_XjReM4IQEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3sYU_EeuICsg8M7EIxw" key="_L0B3iYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="Cache.ram#_u3V6QIITEeu5MfgbrPgVUg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3soU_EeuICsg8M7EIxw" name="Caching">
+    <comesFrom href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
+    <wovenElements xmi:id="_L0B3s4U_EeuICsg8M7EIxw" key="_L0B3jYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="Caching.ram#_D4sQVIIYEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3tIU_EeuICsg8M7EIxw" key="_L0B3kIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="Caching.ram#_D4sQUoIYEeu5MfgbrPgVUg"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3tYU_EeuICsg8M7EIxw" name="Cache Accessor">
+    <comesFrom href="CacheAccessor.ram#_9yWPEIIVEeu5MfgbrPgVUg"/>
+    <wovenElements xmi:id="_L0B3toU_EeuICsg8M7EIxw" key="_L0B3iYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheAccessor.ram#_b2JvAIIYEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3t4U_EeuICsg8M7EIxw" key="_L0B3goU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheAccessor.ram#_9yWPFIIVEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3uIU_EeuICsg8M7EIxw" key="_L0B3jYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheAccessor.ram#_9yWPEoIVEeu5MfgbrPgVUg"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3uYU_EeuICsg8M7EIxw" key="_L0B3jIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="CacheAccessor.ram#_usApcISDEeujyJ3JQ6wdQw"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3uoU_EeuICsg8M7EIxw" name="CacheCollector">
+    <comesFrom href="CacheCollector.ram#_5jUAsIOzEeuJILKBgdnzgQ"/>
+    <wovenElements xmi:id="_L0B3u4U_EeuICsg8M7EIxw" key="_L0B3goU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheCollector.ram#_WDQMEIO0EeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3vIU_EeuICsg8M7EIxw" key="_L0B3hoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheCollector.ram#_5jUAsoOzEeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3vYU_EeuICsg8M7EIxw" key="_L0BQg4U_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheCollector.ram#_A4F14IO0EeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3voU_EeuICsg8M7EIxw" key="_L0B3iIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="CacheCollector.ram#_CPRrQIO0EeuJILKBgdnzgQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3v4U_EeuICsg8M7EIxw" name="DataAccessor">
+    <comesFrom href="DataAccessor.ram#_a2eAkIJNEeuBgplTSvBFkA"/>
+    <wovenElements xmi:id="_L0B3wIU_EeuICsg8M7EIxw" key="_L0BQgYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="DataAccessor.ram#_Al-tUIJjEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3wYU_EeuICsg8M7EIxw" key="_L0BQfoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="DataAccessor.ram#_a2eAl4JNEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3woU_EeuICsg8M7EIxw" key="_L0BQhYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="DataAccessor.ram#_a2eAlIJNEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3w4U_EeuICsg8M7EIxw" key="_L0B3gYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="DataAccessor.ram#_YYnBkIJOEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3xIU_EeuICsg8M7EIxw" key="_L0BQiIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="DataAccessor.ram#_a2eAkoJNEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3xYU_EeuICsg8M7EIxw" key="_L0BQgIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="DataAccessor.ram#_-zNvMIJiEeuBgplTSvBFkA"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3xoU_EeuICsg8M7EIxw" name="FixedExpiration">
+    <comesFrom href="FixedExpiration.ram#_EPAR4IO1EeuJILKBgdnzgQ"/>
+    <wovenElements xmi:id="_L0B3x4U_EeuICsg8M7EIxw" key="_L0BQhIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="FixedExpiration.ram#_EPAR44O1EeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3yIU_EeuICsg8M7EIxw" key="_L0BQgoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="FixedExpiration.ram#_EPAR5IO1EeuJILKBgdnzgQ"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3yYU_EeuICsg8M7EIxw" key="_L0BQg4U_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="FixedExpiration.ram#_EPAR4oO1EeuJILKBgdnzgQ"/>
+    </wovenElements>
+  </wovenAspects>
+  <wovenAspects xmi:id="_L0B3yoU_EeuICsg8M7EIxw" name="OracleDataAccessor">
+    <comesFrom href="OracleDataAccessor.ram#_4BAWMIJPEeuBgplTSvBFkA"/>
+    <wovenElements xmi:id="_L0B3y4U_EeuICsg8M7EIxw" key="_L0BQeoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_xoI8YIJfEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3zIU_EeuICsg8M7EIxw" key="_L0BQdoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_4BAWOYJPEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3zYU_EeuICsg8M7EIxw" key="_L0BQd4U_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="OracleDataAccessor.ram#_4BAWM4JPEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3zoU_EeuICsg8M7EIxw" key="_L0BQfIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="OracleDataAccessor.ram#_JLlGoIJiEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B3z4U_EeuICsg8M7EIxw" key="_L0BQgIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_mdQYUIJfEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B30IU_EeuICsg8M7EIxw" key="_L0BQfoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="OracleDataAccessor.ram#_4BAWMoJPEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B30YU_EeuICsg8M7EIxw" key="_L0BQgYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_p8CzYIJfEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B30oU_EeuICsg8M7EIxw" key="_L0BQe4U_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_Qzw1cIJhEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B304U_EeuICsg8M7EIxw" key="_L0BQdYU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_4BAWOIJPEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B31IU_EeuICsg8M7EIxw" key="_L0BQcoU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Class" href="OracleDataAccessor.ram#_4BAWNYJPEeuBgplTSvBFkA"/>
+    </wovenElements>
+    <wovenElements xmi:id="_L0B31YU_EeuICsg8M7EIxw" key="_L0BQdIU_EeuICsg8M7EIxw">
+      <value xsi:type="ram:Attribute" href="OracleDataAccessor.ram#_4BAWN4JPEeuBgplTSvBFkA"/>
+    </wovenElements>
+  </wovenAspects>
+</ram:Aspect>

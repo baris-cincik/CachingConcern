@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_5jUAsIOzEeuJILKBgdnzgQ" name="CacheCollector">
+  <realizes href="Caching.core#_Qex54IEiEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_5jUAsYOzEeuJILKBgdnzgQ">
+    <classes xsi:type="ram:Class" xmi:id="_5jUAsoOzEeuJILKBgdnzgQ" name="CacheCollector">
+      <associationEnds xmi:id="_YTFgsIO0EeuJILKBgdnzgQ" name="myCacheAccessor" lowerBound="1" assoc="_YTFgsoO0EeuJILKBgdnzgQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_A4F14IO0EeuJILKBgdnzgQ" name="FixedExpiration" superTypes="_5jUAsoOzEeuJILKBgdnzgQ"/>
+    <classes xsi:type="ram:Class" xmi:id="_CPRrQIO0EeuJILKBgdnzgQ" name="LeastRecentlyUsedExpiration" superTypes="_5jUAsoOzEeuJILKBgdnzgQ"/>
+    <classes xsi:type="ram:Class" xmi:id="_WDQMEIO0EeuJILKBgdnzgQ" name="CacheAccessor">
+      <associationEnds xmi:id="_YTFgsYO0EeuJILKBgdnzgQ" name="myCacheCollector" lowerBound="1" assoc="_YTFgsoO0EeuJILKBgdnzgQ"/>
+    </classes>
+    <associations xmi:id="_YTFgsoO0EeuJILKBgdnzgQ" name="CacheCollector_CacheAccessor" ends="_YTFgsIO0EeuJILKBgdnzgQ _YTFgsYO0EeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RVoid" xmi:id="_5jUAs4OzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_5jUAtIOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_5jUAtYOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_5jUAtoOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_5jUAt4OzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RString" xmi:id="_5jUAuIOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_5jUAuYOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_5jUAuoOzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_5jUAu4OzEeuJILKBgdnzgQ"/>
+    <types xsi:type="ram:RByte" xmi:id="_5jUAvIOzEeuJILKBgdnzgQ"/>
+  </structuralView>
+  <instantiations xmi:id="_5jUAvYOzEeuJILKBgdnzgQ">
+    <source xsi:type="ram:Aspect" href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
+  </instantiations>
+  <layout xmi:id="_5jUnwIOzEeuJILKBgdnzgQ">
+    <containers xmi:id="_5jUnwYOzEeuJILKBgdnzgQ" key="_5jUAsYOzEeuJILKBgdnzgQ">
+      <value xmi:id="_5jVO0IOzEeuJILKBgdnzgQ" key="_5jUAsoOzEeuJILKBgdnzgQ">
+        <value xmi:id="_5jVO0YOzEeuJILKBgdnzgQ" x="651.9997" y="118.982315"/>
+      </value>
+      <value xmi:id="_A4Gc8IO0EeuJILKBgdnzgQ" key="_A4F14IO0EeuJILKBgdnzgQ">
+        <value xmi:id="_A4Gc8YO0EeuJILKBgdnzgQ" x="438.99957" y="279.02548"/>
+      </value>
+      <value xmi:id="_CPSSUIO0EeuJILKBgdnzgQ" key="_CPRrQIO0EeuJILKBgdnzgQ">
+        <value xmi:id="_CPSSUYO0EeuJILKBgdnzgQ" x="757.9995" y="279.02548"/>
+      </value>
+      <value xmi:id="_WDQzIIO0EeuJILKBgdnzgQ" key="_WDQMEIO0EeuJILKBgdnzgQ">
+        <value xmi:id="_WDQzIYO0EeuJILKBgdnzgQ" x="103.00009" y="118.97844"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

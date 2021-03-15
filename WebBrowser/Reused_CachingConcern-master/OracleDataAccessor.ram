@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_4BAWMIJPEeuBgplTSvBFkA" name="OracleDataAccessor">
+  <realizes href="Caching.core#_wTbzwIEhEeusesQjvatQAA"/>
+  <coreConcern href="Caching.core#_-1j14IEgEeusesQjvatQAA"/>
+  <structuralView xmi:id="_4BAWMYJPEeuBgplTSvBFkA">
+    <classes xsi:type="ram:Class" xmi:id="_4BAWMoJPEeuBgplTSvBFkA" name="DBMS">
+      <attributes xmi:id="_mdQYUIJfEeuBgplTSvBFkA" name="accessLang" type="_4BAWQIJPEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_p8CzYIJfEeuBgplTSvBFkA" name="company" type="_4BAWQIJPEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_4BAWM4JPEeuBgplTSvBFkA" name="OracleDataManager" superTypes="_4BAWMoJPEeuBgplTSvBFkA">
+      <associationEnds xmi:id="_4BAWNIJPEeuBgplTSvBFkA" name="stores" upperBound="-1" assoc="_4BAWOoJPEeuBgplTSvBFkA"/>
+      <associationEnds xmi:id="_Kvty4IJiEeuBgplTSvBFkA" name="myRecoveryManager" lowerBound="1" assoc="_Kvty4oJiEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_xoI8YIJfEeuBgplTSvBFkA" name="log" type="_4BAWQIJPEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_Qzw1cIJhEeuBgplTSvBFkA" name="processingCapacity" type="_4BAWPoJPEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_4BAWNYJPEeuBgplTSvBFkA" name="Database">
+      <associationEnds xmi:id="_4BAWNoJPEeuBgplTSvBFkA" name="manages" lowerBound="1" assoc="_4BAWOoJPEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_4BAWN4JPEeuBgplTSvBFkA" name="capacity" type="_4BAWPoJPEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_4BAWOIJPEeuBgplTSvBFkA" name="isRelational" type="_4BAWPYJPEeuBgplTSvBFkA"/>
+      <attributes xmi:id="_4BAWOYJPEeuBgplTSvBFkA" name="id" type="_4BAWPoJPEeuBgplTSvBFkA"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_JLlGoIJiEeuBgplTSvBFkA" name="RecoveryManager">
+      <associationEnds xmi:id="_Kvty4YJiEeuBgplTSvBFkA" name="myOracleDataManager" lowerBound="1" assoc="_Kvty4oJiEeuBgplTSvBFkA"/>
+    </classes>
+    <associations xmi:id="_4BAWOoJPEeuBgplTSvBFkA" name="Database_OracleDataManager" ends="_4BAWNoJPEeuBgplTSvBFkA _4BAWNIJPEeuBgplTSvBFkA"/>
+    <associations xmi:id="_Kvty4oJiEeuBgplTSvBFkA" name="OracleDataManager_RecoveryManager" ends="_Kvty4IJiEeuBgplTSvBFkA _Kvty4YJiEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RVoid" xmi:id="_4BAWO4JPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RAny" xmi:id="_4BAWPIJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_4BAWPYJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RInt" xmi:id="_4BAWPoJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RChar" xmi:id="_4BAWP4JPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RString" xmi:id="_4BAWQIJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RDouble" xmi:id="_4BAWQYJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RFloat" xmi:id="_4BAWQoJPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RLong" xmi:id="_4BAWQ4JPEeuBgplTSvBFkA"/>
+    <types xsi:type="ram:RByte" xmi:id="_4BAWRIJPEeuBgplTSvBFkA"/>
+  </structuralView>
+  <instantiations xmi:id="_4BAWRYJPEeuBgplTSvBFkA">
+    <source xsi:type="ram:Aspect" href="DataAccessor.ram#_a2eAkIJNEeuBgplTSvBFkA"/>
+  </instantiations>
+  <layout xmi:id="_4BAWRoJPEeuBgplTSvBFkA">
+    <containers xmi:id="_4BAWR4JPEeuBgplTSvBFkA" key="_4BAWMYJPEeuBgplTSvBFkA">
+      <value xmi:id="_4BAWSIJPEeuBgplTSvBFkA" key="_4BAWMoJPEeuBgplTSvBFkA">
+        <value xmi:id="_4BAWSYJPEeuBgplTSvBFkA" x="372.96152" y="151.0353"/>
+      </value>
+      <value xmi:id="_4BAWSoJPEeuBgplTSvBFkA" key="_4BAWM4JPEeuBgplTSvBFkA">
+        <value xmi:id="_4BAWS4JPEeuBgplTSvBFkA" x="336.96152" y="352.466"/>
+      </value>
+      <value xmi:id="_4BAWTIJPEeuBgplTSvBFkA" key="_4BAWNYJPEeuBgplTSvBFkA">
+        <value xmi:id="_4BAWTYJPEeuBgplTSvBFkA" x="372.95648" y="721.7093"/>
+      </value>
+      <value xmi:id="_JLoJ8IJiEeuBgplTSvBFkA" key="_JLlGoIJiEeuBgplTSvBFkA">
+        <value xmi:id="_JLoJ8YJiEeuBgplTSvBFkA" x="954.80566" y="372.466"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>
