@@ -7,10 +7,12 @@
       <associationEnds xmi:id="_xGEboIITEeu5MfgbrPgVUg" name="myCachePool" lowerBound="1" assoc="_xGEbooITEeu5MfgbrPgVUg"/>
       <attributes xmi:id="_XjReM4IQEeu5MfgbrPgVUg" name="key" type="_XjReOoIQEeu5MfgbrPgVUg"/>
       <attributes xmi:id="_XjReNIIQEeu5MfgbrPgVUg" name="value" type="_XjReOoIQEeu5MfgbrPgVUg"/>
+      <attributes xmi:id="_sFdfAIO0EeuJILKBgdnzgQ" name="size" type="_XjRePoIQEeu5MfgbrPgVUg"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_u3V6QIITEeu5MfgbrPgVUg" name="CachePool">
       <associationEnds xmi:id="_xGEboYITEeu5MfgbrPgVUg" name="cachedData" upperBound="-1" assoc="_xGEbooITEeu5MfgbrPgVUg"/>
     </classes>
+    <classes xsi:type="ram:Class" xmi:id="_or47IIO0EeuJILKBgdnzgQ" name="Byte" dataType="true"/>
     <associations xmi:id="_xGEbooITEeu5MfgbrPgVUg" name="CacheData_CacheTable" ends="_xGEboIITEeu5MfgbrPgVUg _xGEboYITEeu5MfgbrPgVUg"/>
     <types xsi:type="ram:RVoid" xmi:id="_XjReNYIQEeu5MfgbrPgVUg"/>
     <types xsi:type="ram:RAny" xmi:id="_XjReNoIQEeu5MfgbrPgVUg"/>
@@ -30,6 +32,9 @@
       </value>
       <value xmi:id="_u3YWgIITEeu5MfgbrPgVUg" key="_u3V6QIITEeu5MfgbrPgVUg">
         <value xmi:id="_u3YWgYITEeu5MfgbrPgVUg" x="484.00024" y="118.00008"/>
+      </value>
+      <value xmi:id="_or5iMIO0EeuJILKBgdnzgQ" key="_or47IIO0EeuJILKBgdnzgQ">
+        <value xmi:id="_or5iMYO0EeuJILKBgdnzgQ" x="123.0" y="100.0"/>
       </value>
     </containers>
   </layout>
