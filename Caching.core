@@ -9,7 +9,7 @@
   <models xsi:type="ram:Aspect" href="FixedExpiration.ram#_EPAR4IO1EeuJILKBgdnzgQ"/>
   <models xsi:type="ram:Aspect" href="LeastRecentlyUsedExpiration.ram#_JnA4YIO1EeuJILKBgdnzgQ"/>
   <featureModel xmi:id="_-1j14YEgEeusesQjvatQAA" coreConcern="_-1j14IEgEeusesQjvatQAA" root="_-1j14oEgEeusesQjvatQAA">
-    <features xmi:id="_-1j14oEgEeusesQjvatQAA" name="Caching" children="_KIhicIEiEeusesQjvatQAA _Qex54IEiEeusesQjvatQAA _NuVLgIEiEeusesQjvatQAA">
+    <features xmi:id="_-1j14oEgEeusesQjvatQAA" name="Caching" children="_Qex54IEiEeusesQjvatQAA _NuVLgIEiEeusesQjvatQAA">
       <realizedBy xsi:type="ram:Aspect" href="Caching.ram#_D4sQUIIYEeu5MfgbrPgVUg"/>
       <reuses xmi:id="_bSTrhp46Eeu8jrCZHhhiQg" name="Association_CacheManager_Cache" selectedConfiguration="_bSTrh546Eeu8jrCZHhhiQg">
         <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
@@ -59,9 +59,28 @@
           <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
         </configurations>
       </reuses>
-    </features>
-    <features xmi:id="_KIhicIEiEeusesQjvatQAA" name="CacheAccessor" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Mandatory">
-      <realizedBy xsi:type="ram:Aspect" href="CacheAccessor.ram#_9yWPEIIVEeu5MfgbrPgVUg"/>
+      <reuses xmi:id="_Tt0ly6NxEeu7LfEIWYLh5A" name="Association_CacheManager_Database" selectedConfiguration="_Tt0lzKNxEeu7LfEIWYLh5A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_Tt0lzKNxEeu7LfEIWYLh5A" name="Automatic selection" reuse="_Tt0ly6NxEeu7LfEIWYLh5A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_y2TyIHQ0EeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_GHh2gH19EeW8vqKd4iftUw"/>
+        </configurations>
+      </reuses>
+      <reuses xmi:id="_Tt-90KNxEeu7LfEIWYLh5A" name="Association_Database_CacheManager" selectedConfiguration="_Tt-90aNxEeu7LfEIWYLh5A">
+        <reusedConcern href="Reused_Association/Association.core#_mZ-ooACWEeWTy6SkLveZ6w"/>
+        <configurations xmi:id="_Tt-90aNxEeu7LfEIWYLh5A" name="Automatic selection" reuse="_Tt-90KNxEeu7LfEIWYLh5A">
+          <source xsi:type="core:COREFeatureModel" href="Reused_Association/Association.core#_mZ_PsACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_nEJnAACWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EDjMIHQzEeWm6eZfpLWFHw"/>
+          <selected href="Reused_Association/Association.core#_mZ_PsQCWEeWTy6SkLveZ6w"/>
+          <selected href="Reused_Association/Association.core#_EnSLwH19EeW8vqKd4iftUw"/>
+          <selected href="Reused_Association/Association.core#_zPvl0HQ0EeWm6eZfpLWFHw"/>
+        </configurations>
+      </reuses>
     </features>
     <features xmi:id="_NuVLgIEiEeusesQjvatQAA" name="CacheStatistics" parent="_-1j14oEgEeusesQjvatQAA" parentRelationship="Optional">
       <realizedBy xsi:type="ram:Aspect" href="CacheStatistics.ram#_wrJR0IIhEeu5MfgbrPgVUg"/>
@@ -187,8 +206,7 @@
     </features>
   </featureModel>
   <impactModel xmi:id="_48IgQILUEeuaXbOQNCj2JA" name="Impact Model" coreConcern="_-1j14IEgEeusesQjvatQAA">
-    <impactModelElements xmi:id="_48JuYILUEeuaXbOQNCj2JA" name="Improve Performance" scalingFactor="6.25" offset="-31.25" incoming="_EqlrcILVEeuaXbOQNCj2JA _FGK0MILVEeuaXbOQNCj2JA _Oy1GwILVEeuaXbOQNCj2JA _V3WooIO1EeuJILKBgdnzgQ"/>
-    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_-gp4wILUEeuaXbOQNCj2JA" name="CacheAccessor" scalingFactor="1.0" outgoing="_EqlrcILVEeuaXbOQNCj2JA" represents="_KIhicIEiEeusesQjvatQAA"/>
+    <impactModelElements xmi:id="_48JuYILUEeuaXbOQNCj2JA" name="Improve Performance" scalingFactor="6.25" offset="-31.25" incoming="_FGK0MILVEeuaXbOQNCj2JA _Oy1GwILVEeuaXbOQNCj2JA _V3WooIO1EeuJILKBgdnzgQ"/>
     <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="__oMvoILUEeuaXbOQNCj2JA" name="CacheCollector" scalingFactor="1.0" outgoing="_FGK0MILVEeuaXbOQNCj2JA" represents="_Qex54IEiEeusesQjvatQAA"/>
     <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_MRoVUILVEeuaXbOQNCj2JA" name="CacheStatistics" scalingFactor="1.0" outgoing="_Oy1GwILVEeuaXbOQNCj2JA" represents="_NuVLgIEiEeusesQjvatQAA"/>
     <impactModelElements xmi:id="_cgFg8ILVEeuaXbOQNCj2JA" name="Decrease Cost" scalingFactor="20.0" incoming="_-ICvAILVEeuaXbOQNCj2JA"/>
@@ -197,9 +215,6 @@
     <layouts xmi:id="_48JuYYLUEeuaXbOQNCj2JA" key="_48JuYILUEeuaXbOQNCj2JA">
       <value xmi:id="_48JuYoLUEeuaXbOQNCj2JA" key="_48JuYILUEeuaXbOQNCj2JA">
         <value xmi:id="_48JuY4LUEeuaXbOQNCj2JA" x="530.9997" y="137.99994"/>
-      </value>
-      <value xmi:id="_-gp4wYLUEeuaXbOQNCj2JA" key="_-gp4wILUEeuaXbOQNCj2JA">
-        <value xmi:id="_-gp4woLUEeuaXbOQNCj2JA" x="306.48587" y="354.99982"/>
       </value>
       <value xmi:id="__oMvoYLUEeuaXbOQNCj2JA" key="__oMvoILUEeuaXbOQNCj2JA">
         <value xmi:id="__oMvooLUEeuaXbOQNCj2JA" x="510.14642" y="387.99963"/>
@@ -219,7 +234,6 @@
         <value xmi:id="_7_HTooLVEeuaXbOQNCj2JA" x="168.72595" y="234.99988"/>
       </value>
     </layouts>
-    <contributions xmi:id="_EqlrcILVEeuaXbOQNCj2JA" relativeWeight="5" source="_-gp4wILUEeuaXbOQNCj2JA" impacts="_48JuYILUEeuaXbOQNCj2JA"/>
     <contributions xmi:id="_FGK0MILVEeuaXbOQNCj2JA" relativeWeight="5" source="__oMvoILUEeuaXbOQNCj2JA" impacts="_48JuYILUEeuaXbOQNCj2JA"/>
     <contributions xmi:id="_Oy1GwILVEeuaXbOQNCj2JA" relativeWeight="1" source="_MRoVUILVEeuaXbOQNCj2JA" impacts="_48JuYILUEeuaXbOQNCj2JA"/>
     <contributions xmi:id="_-ICvAILVEeuaXbOQNCj2JA" relativeWeight="5" source="_7_HToILVEeuaXbOQNCj2JA" impacts="_cgFg8ILVEeuaXbOQNCj2JA"/>
